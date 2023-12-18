@@ -63,5 +63,6 @@ management, but with many complexities removed to allow students to focus on the
 | [Introduction to Geospatial Concepts](https://cobalt-casco.github.io/organization-geospatial/)                             | Understand data structures and common storage and transfer formats for spatial data.       | 
 | [Introduction to R for Geospatial Data](https://cobalt-casco.github.io/r-intro-geospatial)                             | Import data into R, calculate summary statistics, and create publication-quality graphics. | 
 | [Introduction to Geospatial Raster and Vector Data with R](https://cobalt-casco.github.io/r-raster-vector-geospatial)                             | Open, work with, and plot vector and raster-format spatial data in R.                      | 
+| [Introduction to R Shiny Webapps for Geospatial Data](https://cobalt-casco.github.io/r-shiny-geospatial)                             | Create web applications that can be deployed for public exploration of data and dynamic storytelling                      | 
 
 
