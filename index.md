@@ -2,7 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-Data Carpentry's aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. This modified version of the [DC geospatial curriculum](https://datacarpentry.org/lessons/#geospatial-curriculum) was made to serve the [Collaborative for Bioregional Action, Learning, and Transformation's Team Zoster](https://cobaltlearningjourney.com/team-zostera/) centered around the Casco Bay bioregion. It was adapted as part of a [NASA MUREP](https://www.nasa.gov/learning-resources/minority-university-research-education-project/) [OCEAN grant](https://cce.nasa.gov/ocean_biology_biogeochemistry/details.html?itemID=4402&itemType=project&itemProgID=8&itemName=Byrnes%20(MUREP%20OCEAN%202020) to [UMass Boston](https://www.umb.edu/). 
+Data Carpentry's aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain. This modified version of the [DC geospatial curriculum](https://datacarpentry.org/lessons/#geospatial-curriculum) was made to serve the [Collaborative for Bioregional Action, Learning, and Transformation's Team Zoster](https://cobaltlearningjourney.com/team-zostera/) centered around the Casco Bay bioregion. It was adapted as part of a [NASA MUREP](https://www.nasa.gov/learning-resources/minority-university-research-education-project/) program in an [OCEAN grant](https://cce.nasa.gov/ocean_biology_biogeochemistry/details.html?itemID=4402&itemType=project&itemProgID=8&itemName=Byrnes%20MUREP%20OCEAN%202020) to [UMass Boston](https://www.umb.edu/). 
 
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
