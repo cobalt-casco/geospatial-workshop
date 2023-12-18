@@ -8,8 +8,7 @@ This workshop is designed to be run on your local machine. First, you will need 
 
 ## Data
 
-You can download all of the data used in this workshop by clicking
-[this download link](https://ndownloader.figshare.com/articles/2009586/versions/10). The file is 218.2 MB.
+You can download all of the data used in this workshop by... **download link forthcoming**
 
 Clicking the download link will automatically download all of the files to your default download directory as a single compressed
 (`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder
@@ -172,23 +171,27 @@ RStudio is a GUI for using `R` that is available for Windows, macOS, and various
 The following `R` packages are used in the various geospatial lessons.
 
 - [`dplyr`](https://cran.r-project.org/package=dplyr)
+- [`tidyr`](https://cran.r-project.org/package=tidyr)
+- [`readr`](https://cran.r-project.org/package=readr)
 - [`ggplot2`](https://cran.r-project.org/package=ggplot2)
 - [`raster`](https://cran.r-project.org/package=raster)
-- [`rgdal`](https://cran.r-project.org/package=rgdal)
-- [`rasterVis`](https://cran.r-project.org/package=rasterVis)
 - [`remotes`](https://cran.r-project.org/package=remotes)
 - [`sf`](https://cran.r-project.org/package=sf)
+- [`terra`](https://cran.r-project.org/package=terra)
+- [`tidyterra`](https://cran.r-project.org/package=tidyterra)
+- [`leaflet`](https://cran.r-project.org/package=leaflet)
 
 To install these packages in RStudio, do the following:  
 1\. Open RStudio by double-clicking the RStudio application icon. You should see
 something like this:
 
-![](/fig/01-rstudio.png){alt='RStudio layout'}
+![](fig/01-rstudio.png){alt='RStudio layout'}
 
 2\. Type the following into the console and hit enter.
 
 ```r
-install.packages(c("dplyr", "ggplot2", "raster", "rgdal", "rasterVis", "sf"))
+install.packages(c("dplyr", "ggplot2", "tidyr", "readr",  "raster", 
+     "remotes", "sf", "terra", "tidyterra", "leaflet"))
 ```
 
 You should see a status message starting with:
@@ -222,9 +225,9 @@ This option involves downloading an Docker image that contains an installation o
 
 Once up and running - you'll have full access to RStudio right from your browser:
 
-![](/fig/docker.png){alt='RStudio layout in browser showing similarity to desktop layout'}
+![](fig/docker.png){alt='RStudio layout in browser showing similarity to desktop layout'}
 
-Please be aware that the `R` package `rasterVis` is not included in the `rocker/geospatial` Docker image. If your instructor teaches with this package then you will need to install this `R` package yourself. All other `R` packages will already be installed for you.
+Please be aware that the `R` package `terra` is not included in the `rocker/geospatial` Docker image. If your instructor teaches with this package then you will need to install this `R` package yourself. All other `R` packages will already be installed for you.
 
 :::::::::::::::: spoiler
 
@@ -308,17 +311,17 @@ If you are returning to a session after stopping Docker itself, make sure Docker
 
 Once you have installed Kitematic, make sure the Docker application is running and then open Kitematic. You should not need to create a login to use Kitematic. If prompted for login credentials, there is an option to skip that step. Use the search bar in the main window to find `rocker/geospatial` (pictured below) and click `Create` under that Docker repository.
 
-![](/fig/kitematicSearch.png)
+![](fig/kitematicSearch.png)
 
 After downloading and installing the image, your container should start automatically. Before opening your browser, connect your Docker image to a local folder where you have your workshop resources stored by clicking on the `Settings` tab and then choosing `Volumes`. Click `Change` and then select the directory you would like to connect to.
 
-![](/fig/kitematicLocal.png)
+![](fig/kitematicLocal.png)
 
 When you open RStudio instance below, you will see the contents of the connected folder inside the `kitematic` directory in the file tab located in the lower righthand corner of the screen.
 
 When you are ready, copy the `Access URL` from the `Home` tab:
 
-![](/fig/kitematicURL.png)
+![](fig/kitematicURL.png)
 
 Paste that url into your browser and, if prompted, enter `rstudio` for both the username and the password.
 
