@@ -29,12 +29,8 @@ get access to the required software and data for this workshop.
 
 ## Data
 
-The lessons in this workshop were originally developed through a hackathon funded by the
-[National Ecological Observatory Network (NEON)](https://www.neonscience.org/) - an NSF funded observatory in Boulder, Colorado - in
-collaboration with Data Carpentry, SESYNC and CYVERSE. NEON is collecting data for 30 years to help scientists understand
-how aquatic and terrestrial ecosystems are changing. 
 
-The data used in these lessons were collected to serve the COBALT Team Zostera's project in Casco Bay. They focus on either the state of maine or the Casco Bay area. Broadly, they come from two sources:
+The data used in these lessons were collected to serve the [COBALT Team Zostera's project in Casco Bay](https://cobaltlearningjourney.com/team-zostera/). They focus on either the state of maine or the Casco Bay area. Broadly, they come from two sources:
 
 - [Landsat](https://landsat.gsfc.nasa.gov/) 8 and 9 data obtained from [USGS Earth Explorer](https://earthexplorer.usgs.gov/). Casco Bay is found in path 11 row 30 of the Landsat archive.
 
