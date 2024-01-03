@@ -180,6 +180,9 @@ The following `R` packages are used in the various geospatial lessons.
 - [`terra`](https://cran.r-project.org/package=terra)
 - [`tidyterra`](https://cran.r-project.org/package=tidyterra)
 - [`leaflet`](https://cran.r-project.org/package=leaflet)
+- [`leaflet.extras`](https://cran.r-project.org/package=leaflet.extras)
+- [`patchwork`](https://cran.r-project.org/package=patchwork)
+- [`shiny`](https://cran.r-project.org/package=shiny)
 
 To install these packages in RStudio, do the following:  
 1\. Open RStudio by double-clicking the RStudio application icon. You should see
@@ -191,7 +194,8 @@ something like this:
 
 ```r
 install.packages(c("dplyr", "ggplot2", "tidyr", "readr",  "raster", 
-     "remotes", "sf", "terra", "tidyterra", "leaflet"))
+     "remotes", "sf", "terra", "tidyterra", "leaflet",
+     "leaflet.extras", "shiny", "patchwork"))
 ```
 
 You should see a status message starting with:
