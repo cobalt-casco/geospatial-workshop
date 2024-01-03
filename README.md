@@ -11,12 +11,13 @@ All participants should agree to abide by the [Data Carpentry Code of Conduct](h
 
 ## Authors
 
-The Geospatial workshop overview is authored and maintained by the Carpentry community.
+The Geospatial workshop overview is authored and maintained by the Carpentry community. This modification was created by Jarrett Byrnes at UMass Boston.
 
 ## Citation
 
 Please cite as:
 
+COBALT Casco Bay Geospatial Workshop. January 2024.
 Geospatial Workshop. June 2018.
 
 
