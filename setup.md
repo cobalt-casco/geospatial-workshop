@@ -8,7 +8,9 @@ This workshop is designed to be run on your local machine. First, you will need 
 
 ## Data
 
-You can download all of the data used in this workshop by... **download link forthcoming**
+You can download all of the geospatial data used in this workshop from [this link](https://figshare.com/ndownloader/files/43910115) (611.27 MB). The data 
+for the intro to R portion of the workshop will be downloaded as part of the 
+lesson.
 
 Clicking the download link will automatically download all of the files to your default download directory as a single compressed
 (`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder
@@ -180,9 +182,15 @@ The following `R` packages are used in the various geospatial lessons.
 - [`terra`](https://cran.r-project.org/package=terra)
 - [`tidyterra`](https://cran.r-project.org/package=tidyterra)
 - [`leaflet`](https://cran.r-project.org/package=leaflet)
+- [`leafem`](https://cran.r-project.org/package=leafem)
 - [`leaflet.extras`](https://cran.r-project.org/package=leaflet.extras)
 - [`patchwork`](https://cran.r-project.org/package=patchwork)
 - [`shiny`](https://cran.r-project.org/package=shiny)
+- [`shinyThemes`](https://cran.r-project.org/package=shinyThemes)
+- [`shinyWidgets`](https://cran.r-project.org/package=shinyWidgets)
+- [`rnaturalearth`](https://cran.r-project.org/package=rnaturalearth)
+- [`rnaturalearthdata`](https://cran.r-project.org/package=rnaturalearthdata)
+- [`lubridate`](https://cran.r-project.org/package=lubridate)
 
 To install these packages in RStudio, do the following:  
 1\. Open RStudio by double-clicking the RStudio application icon. You should see
@@ -194,8 +202,9 @@ something like this:
 
 ```r
 install.packages(c("dplyr", "ggplot2", "tidyr", "readr",  "raster", 
-     "remotes", "sf", "terra", "tidyterra", "leaflet",
-     "leaflet.extras", "shiny", "patchwork"))
+     "remotes", "sf", "terra", "tidyterra", "leaflet", "leafem",
+     "leaflet.extras", "shiny", "shinythemes", "shinyWidgets",
+     "patchwork", "lubridate", "rnaturalearth", "rnaturalearthdata"))
 ```
 
 You should see a status message starting with:
