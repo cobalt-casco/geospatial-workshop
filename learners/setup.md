@@ -8,7 +8,9 @@ This workshop is designed to be run on your local machine. First, you will need 
 
 ## Data
 
-You can download all of the data used in this workshop by... **download link forthcoming**
+You can download all of the geospatial data used in this workshop from [this link](https://figshare.com/ndownloader/files/43910115) (611.27 MB). The data 
+for the intro to R portion of the workshop will be downloaded as part of the 
+lesson.
 
 Clicking the download link will automatically download all of the files to your default download directory as a single compressed
 (`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder
@@ -194,7 +196,7 @@ something like this:
 
 ```r
 install.packages(c("dplyr", "ggplot2", "tidyr", "readr",  "raster", 
-     "remotes", "sf", "terra", "tidyterra", "leaflet",
+     "remotes", "sf", "terra", "tidyterra", "leaflet", "leafem",
      "leaflet.extras", "shiny", "patchwork"))
 ```
 
