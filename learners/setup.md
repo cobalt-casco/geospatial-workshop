@@ -188,6 +188,7 @@ The following `R` packages are used in the various geospatial lessons.
 - [`shiny`](https://cran.r-project.org/package=shiny)
 - [`shinyThemes`](https://cran.r-project.org/package=shinyThemes)
 - [`shinyWidgets`](https://cran.r-project.org/package=shinyWidgets)
+- [`shiny.i18n`](https://cran.r-project.org/package=shiny.i18n)
 - [`rnaturalearth`](https://cran.r-project.org/package=rnaturalearth)
 - [`rnaturalearthdata`](https://cran.r-project.org/package=rnaturalearthdata)
 - [`lubridate`](https://cran.r-project.org/package=lubridate)
@@ -204,7 +205,8 @@ something like this:
 install.packages(c("dplyr", "ggplot2", "tidyr", "readr",  "raster", 
      "remotes", "sf", "terra", "tidyterra", "leaflet", "leafem",
      "leaflet.extras", "shiny", "shinythemes", "shinyWidgets",
-     "patchwork", "lubridate", "rnaturalearth", "rnaturalearthdata"))
+     "patchwork", "lubridate", "rnaturalearth", "rnaturalearthdata",
+     "shiny.i18n"))
 ```
 
 You should see a status message starting with:
