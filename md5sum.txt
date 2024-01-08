@@ -6,5 +6,5 @@
 "instructors/data.md" "4fa10fd27fa8977a57781adf7bc50274" "site/built/data.md" "2023-12-18"
 "instructors/instructor-notes.md" "0884f5c37de7f25485c8b04c7b20c7e0" "site/built/instructor-notes.md" "2023-12-18"
 "learners/reference.md" "4e0dcbc7892af6f9610d44d356e66617" "site/built/reference.md" "2023-12-18"
-"learners/setup.md" "effdb8c7e380e7a7f2f169fdfdb8fde6" "site/built/setup.md" "2024-01-05"
+"learners/setup.md" "5dace6d88a1139e564e15580c87dd093" "site/built/setup.md" "2024-01-08"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2023-12-18"
