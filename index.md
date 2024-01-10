@@ -30,11 +30,13 @@ get access to the required software and data for this workshop.
 ## Data
 
 
-The data used in these lessons were collected to serve the [COBALT Team Zostera's project in Casco Bay](https://cobaltlearningjourney.com/team-zostera/). They focus on either the state of maine or the Casco Bay area. Broadly, they come from two sources:
+The data used in these lessons were collected to serve the [COBALT Team Zostera's project in Casco Bay](https://cobaltlearningjourney.com/team-zostera/). They focus on either the state of maine or the Casco Bay area. Broadly, they come from three sources:
 
 - [Landsat](https://landsat.gsfc.nasa.gov/) 8 and 9 data obtained from [USGS Earth Explorer](https://earthexplorer.usgs.gov/). Casco Bay is found in path 11 row 30 of the Landsat archive.
 
 - Data from the [Maine GeoLibrary Data Catalogue](https://www.maine.gov/geolib/catalog.html). 
+
+- Data from the [Maine Department of Marine Resources Urchin Surveys](https://www.maine.gov/dmr/sites/maine.gov.dmr/files/docs/forumhandout.pdf).
 
 As the course gets closer, we will supply a link to download all of the data in one zip file.
 
@@ -47,6 +49,7 @@ management, but with many complexities removed to allow students to focus on the
 | Seagrass data          | maine_gov_seagrass.zip                                                                | Polygon shapefiles of surveys of *Zostera marina* beds from either the state of Maine or just Casco Bay in 1997, 2010, 2013, 2018, and 2022.                                                                                                                                               | 
 | Ocean turbidity | modis.zip                                                         | Data collected by MODIS characterizing the [Kd490](https://eastcoast.coastwatch.noaa.gov/cw_k490_hires.php) diffuse attenuation coefficient averaged over the summer of 2023. | 
 | Landstat 8 and 9  raster data  | landsat_casco.zip                                                                   | 2013-2023 Landsat sea surface temperature data from the B10 thermal band cropped to Casco Bay from a day with minimal clouds between August and end of September. Also a full Landsat scene from August of 2023.                                                                                                      | 
+| Maine DMR urchin and kelp data data  | landsat_casco.zip                                                                   | 2001-2014 data on the abundances of kelp and urchins from sites around the state of Maine assessed by DMR divers.                                                                                                      | 
 
 [More information on this dataset](instructors/data.md)
 
