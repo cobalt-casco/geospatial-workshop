@@ -8,8 +8,8 @@ This workshop is designed to be run on your local machine. First, you will need 
 
 ## Data
 
-You can download all of the geospatial data used in this workshop from [this link](https://figshare.com/ndownloader/files/43910115) (611.27 MB). The data 
-for the intro to R portion of the workshop will be downloaded as part of the 
+You can download all of the geospatial data used in this workshop from [this link](https://figshare.com/ndownloader/files/43910115) (611.27 MB). The data
+for the intro to R portion of the workshop will be downloaded as part of the
 lesson.
 
 Clicking the download link will automatically download all of the files to your default download directory as a single compressed
@@ -22,14 +22,14 @@ For a full description of the data used in this workshop see the [data page](ins
 
 ### Software
 
-| Software | Install | Manual | Available for         | Description                                                   | 
+| Software | Install | Manual | Available for         | Description                                                   |
 | -------- | ------- | ------ | --------------------- | ------------------------------------------------------------- |
-| [GDAL](https://www.gdal.org)         | [Link](https://gdal.org/download.html)        | [Link](https://gdal.org)       | Linux, MacOS, Windows | Geospatial model for reading and writing a variety of formats | 
-| [GEOS](https://trac.osgeo.org/geos)         | [Link](https://trac.osgeo.org/geos)        | [Link](https://geos.osgeo.org/doxygen/)       | Linux, MacOS, Windows | Geometry models and operations                                | 
-| [PROJ.4](https://proj4.org)         | [Link](https://proj4.org/install.html)        | [Link](https://proj4.org/index.html)       | Linux, MacOS, Windows | Coordinate reference system transformations                   | 
-| [R](https://www.r-project.org)         | [Link](https://cloud.r-project.org)        | [Link](https://cloud.r-project.org)       | Linux, MacOS, Windows | Software environment for statistical and scientific computing | 
-| [RStudio](https://www.rstudio.com)         | [Link](https://www.rstudio.com/products/rstudio/download/#download)        |        | Linux, MacOS, Windows | GUI for R                                                     | 
-| [UDUNITS](https://www.unidata.ucar.edu/software/udunits/)         | [Link](https://www.unidata.ucar.edu/downloads/udunits/index.jsp)        | [Link](https://www.unidata.ucar.edu/software/udunits/#documentation)       | Linux, MacOS, Windows | Unit conversions                                              | 
+| [GDAL](https://www.gdal.org)         | [Link](https://gdal.org/download.html)        | [Link](https://gdal.org)       | Linux, MacOS, Windows | Geospatial model for reading and writing a variety of formats |
+| [GEOS](https://trac.osgeo.org/geos)         | [Link](https://trac.osgeo.org/geos)        | [Link](https://geos.osgeo.org/doxygen/)       | Linux, MacOS, Windows | Geometry models and operations                                |
+| [PROJ.4](https://proj4.org)         | [Link](https://proj4.org/install.html)        | [Link](https://proj4.org/index.html)       | Linux, MacOS, Windows | Coordinate reference system transformations                   |
+| [R](https://www.r-project.org)         | [Link](https://cloud.r-project.org)        | [Link](https://cloud.r-project.org)       | Linux, MacOS, Windows | Software environment for statistical and scientific computing |
+| [RStudio](https://www.rstudio.com)         | [Link](https://www.rstudio.com/products/rstudio/download/#download)        |        | Linux, MacOS, Windows | GUI for R                                                     |
+| [UDUNITS](https://www.unidata.ucar.edu/software/udunits/)         | [Link](https://www.unidata.ucar.edu/downloads/udunits/index.jsp)        | [Link](https://www.unidata.ucar.edu/software/udunits/#documentation)       | Linux, MacOS, Windows | Unit conversions                                              |
 
 We provide quick instructions below for installing the various software needed for this workshop. At points, they assume familiarity with the command line and with installation in general. As there are different operating systems and many different versions of operating systems and environments, these may not work on your computer. If an installation doesn't work for you, please refer to the installation instructions for that software listed in the table above.
 
@@ -203,13 +203,14 @@ something like this:
 2\. Type the following into the console and hit enter.
 
 ```r
-install.packages(c("dplyr", "ggplot2", "tidyr", "readr",  "raster", 
+install.packages(c("dplyr", "ggplot2", "tidyr", "readr",  "raster",
      "remotes", "sf", "terra", "tidyterra", "leaflet", "leafem",
      "leaflet.extras", "shiny", "shinythemes", "shinyWidgets",
      "patchwork", "lubridate", "rnaturalearth", "rnaturalearthdata",
      "shiny.i18n"))
-     
-remotes::install_github("datasketch/shi18ny")
+
+remotes::install_github("datasketch/shi18ny",
+                        ref = "59df31affe0f7da998e10adeda3316f9363305c7")
 ```
 
 You should see a status message starting with:
@@ -380,5 +381,3 @@ $ docker system prune -a
 ```
 
 :::::::::::::::::::::::::
-
-
